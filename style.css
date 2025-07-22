@@ -1,15 +1,18 @@
 body {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1em;
   background-color: #f0f8ff;
   font-family: "Helvetica", sans-serif;
   text-align: center;
+  box-sizing: border-box;
 }
+@media (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
 
-h1 {
-  color: #3366cc;
+  p {
+    font-size: 16px;
+  }
 }
-
-p {
-  font-size: 18px;
-  color: #333;
-}
-/* 更新テスト */
