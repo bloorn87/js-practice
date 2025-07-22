@@ -1,2 +1,2 @@
 console.log("JavaScriptが読み込まれました！");
-alert("こんにちは、みなせさん！");
+alert("脳汁ドバドバ");
